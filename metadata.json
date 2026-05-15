@@ -1,0 +1,6 @@
+{
+  "name": "OpenPulse",
+  "description": "AI-powered autonomous news-to-video generation pipeline using HyperFrames and remote LLM inference.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["AI Video Generation", "Autonomous Agents", "News Ingestion"]
+}
