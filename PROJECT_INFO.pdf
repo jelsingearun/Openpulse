@@ -1,0 +1,307 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Length 1677 >>
+stream
+BT
+/F1 11 Tf
+14 TL
+50 792 Td
+(OpenPulse Project Information) Tj
+T*
+(Generated: 2026-05-15T06:36:53.597+00:00) Tj
+T*
+() Tj
+T*
+(PROJECT OVERVIEW) Tj
+T*
+(Name: OpenPulse) Tj
+T*
+(Description: AI-powered autonomous news-to-video generation pipeline using HyperFrames and ) Tj
+T*
+(remote LLM inference.) Tj
+T*
+(Major Capabilities: AI Video Generation, Autonomous Agents, News Ingestion) Tj
+T*
+() Tj
+T*
+(TECHNOLOGY STACK \(from package.json\)) Tj
+T*
+(Runtime: Node.js \(module modules\)) Tj
+T*
+(Core Scripts:) Tj
+T*
+(- dev: tsx server.ts) Tj
+T*
+(- build: vite build) Tj
+T*
+(- start: tsx server.ts) Tj
+T*
+(- clean: rm -rf dist) Tj
+T*
+(- lint: tsc --noEmit) Tj
+T*
+() Tj
+T*
+(PRODUCTION DEPENDENCIES) Tj
+T*
+(- @fastify/cors: ^10.1.0) Tj
+T*
+(- @fastify/static: ^8.3.0) Tj
+T*
+(- @fastify/view: ^10.0.2) Tj
+T*
+(- @tailwindcss/vite: ^4.2.4) Tj
+T*
+(- @types/react: ^19.2.14) Tj
+T*
+(- @types/react-dom: ^19.2.3) Tj
+T*
+(- @vitejs/plugin-react: ^5.2.0) Tj
+T*
+(- axios: ^1.16.0) Tj
+T*
+(- dotenv: ^17.2.3) Tj
+T*
+(- express: ^5.2.1) Tj
+T*
+(- fastify: ^5.8.5) Tj
+T*
+(- form-data: ^4.0.1) Tj
+T*
+(- fs-extra: ^11.3.5) Tj
+T*
+(- gsap: ^3.15.0) Tj
+T*
+(- hyperframes: ^0.5.4) Tj
+T*
+(- lucide-react: ^0.546.0) Tj
+T*
+(- motion: ^12.38.0) Tj
+T*
+(- pino: ^9.14.0) Tj
+T*
+(- pino-pretty: ^11.3.0) Tj
+T*
+(- playwright: ^1.59.1) Tj
+T*
+(- react: ^19.2.6) Tj
+T*
+(- react-dom: ^19.2.6) Tj
+T*
+(- rss-parser: ^3.13.0) Tj
+T*
+() Tj
+T*
+(DEVELOPMENT DEPENDENCIES) Tj
+T*
+(- @types/express: ^4.17.25) Tj
+T*
+(- @types/node: ^22.14.0) Tj
+T*
+(- autoprefixer: ^10.4.21) Tj
+T*
+(- tailwindcss: ^4.1.14) Tj
+T*
+(- tsx: ^4.21.0) Tj
+T*
+(- typescript: ~5.8.2) Tj
+T*
+(- vite: ^6.2.3) Tj
+T*
+() Tj
+T*
+(TOP-LEVEL REPOSITORY STRUCTURE) Tj
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2152 >>
+stream
+BT
+/F1 11 Tf
+14 TL
+50 792 Td
+(- .env.example \(file\)) Tj
+T*
+(- .gitignore \(file\)) Tj
+T*
+(- README.md \(file\)) Tj
+T*
+(- app \(dir\)) Tj
+T*
+(- assets \(dir\)) Tj
+T*
+(- index.html \(file\)) Tj
+T*
+(- metadata.json \(file\)) Tj
+T*
+(- package-lock.json \(file\)) Tj
+T*
+(- package.json \(file\)) Tj
+T*
+(- server.ts \(file\)) Tj
+T*
+(- src \(dir\)) Tj
+T*
+(- templates \(dir\)) Tj
+T*
+(- tsconfig.json \(file\)) Tj
+T*
+(- vite.config.ts \(file\)) Tj
+T*
+() Tj
+T*
+(README CONTENT) Tj
+T*
+(# OpenPulse 脉动) Tj
+T*
+() Tj
+T*
+(AI-powered autonomous news-to-video generation pipeline. This system transforms real-time news ) Tj
+T*
+(feeds into cinematic vertical short-form videos using an orchestrated pipeline of LLMs, GSAP ) Tj
+T*
+(animations, and HyperFrames rendering.) Tj
+T*
+() Tj
+T*
+(## 🚀 Architecture) Tj
+T*
+() Tj
+T*
+(1.  **Ingestion**: Scrapes Hacker News \(and other sources\) for trending stories.) Tj
+T*
+(2.  **Inference**: Uses vLLM or LM Studio \(Local\) to generate a HyperFrames-compatible HTML ) Tj
+T*
+(composition.) Tj
+T*
+(3.  **Composition**: Dynamically builds a GSAP-powered animation sequence.) Tj
+T*
+(4.  **Rendering**: Uses Headless Chromium via Playwright to capture frames.) Tj
+T*
+(5.  **Encoding**: FFMPEG compiles frames into a production-ready MP4.) Tj
+T*
+() Tj
+T*
+(## 🛠️ Tech Stack) Tj
+T*
+() Tj
+T*
+(-   **Backend**: Node.js, Fastify, TypeScript) Tj
+T*
+(-   **Frontend**: React, TailwindCSS, Lucide-React, Motion) Tj
+T*
+(-   **Inference**: **vLLM** \(Production-grade\), LM Studio \(Local / Mesh\)) Tj
+T*
+(-   **Rendering**: [HeyGen HyperFrames]\(https://github.com/heygen-com/hyperframes\)) Tj
+T*
+(-   **Animation**: GSAP \(GreenSock\)) Tj
+T*
+() Tj
+T*
+(## 📦 Setup & Installation) Tj
+T*
+() Tj
+T*
+(### 1. vLLM \(Recommended for Production\)) Tj
+T*
+(1.  Install vLLM following the [official guide]\(https://github.com/vllm-project/vllm\).) Tj
+T*
+(2.  Run the server:) Tj
+T*
+(    ```bash) Tj
+T*
+(    python -m vllm.entrypoints.openai.api_server --model Qwen/Qwen2.5-7B-Instruct --port 8000) Tj
+T*
+(    ```) Tj
+T*
+() Tj
+T*
+(### 2. Application Setup) Tj
+T*
+(```bash) Tj
+T*
+(# Install dependencies) Tj
+T*
+(npm install) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 688 >>
+stream
+BT
+/F1 11 Tf
+14 TL
+50 792 Td
+(# Setup environment) Tj
+T*
+(cp .env.example .env) Tj
+T*
+() Tj
+T*
+(# Start development server) Tj
+T*
+(npm run dev) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(## 🎥 HyperFrames Integration) Tj
+T*
+() Tj
+T*
+(OpenPulse treats HTML/JS as executable video code. ) Tj
+T*
+(- **Deterministic**: Every frame is calculated based on the GSAP timeline.) Tj
+T*
+(- **Clip-Safe**: Uses `data-start` and `data-duration` attributes for precise temporal ) Tj
+T*
+(alignment.) Tj
+T*
+() Tj
+T*
+(## 🛡️ Security) Tj
+T*
+(-   Encrypted mesh networking via Tailscale \(integrated via LM Link\).) Tj
+T*
+(-   Sandboxed rendering environment.) Tj
+T*
+(-   Environment-based secret management.) Tj
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> >> >> /Contents 7 0 R >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000127 00000 n 
+0000001856 00000 n 
+0000002031 00000 n 
+0000004235 00000 n 
+0000004410 00000 n 
+0000005149 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+5324
+%%EOF
