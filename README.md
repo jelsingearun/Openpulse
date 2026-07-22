@@ -1,4 +1,4 @@
-# OpenPulse 脉动
+# OpenPulse 
 
 AI-powered autonomous news-to-video generation pipeline. This system transforms real-time news feeds into cinematic vertical short-form videos using an orchestrated pipeline of LLMs, GSAP animations, and HyperFrames rendering.
 
